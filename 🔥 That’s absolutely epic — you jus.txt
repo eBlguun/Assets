@@ -1,0 +1,86 @@
+🔥 That’s absolutely epic — you just turned a **prestige title** into a **story-driven quest event**!
+This will make reaching **Blade Sovereign (or other Legendary paths)** not just a flex, but a **cinematic milestone** in your game.
+
+Let’s structure it so it feels **mysterious, challenging, and rewarding**:
+
+---
+
+# 🌌 Legendary Path Event System
+
+## 🎯 Trigger Condition
+
+* When player upgrades from **Blade Veteran → Blade Sovereign** (or other Legendary variants), an **Event Trigger** happens:
+
+  * World around player **glows/distorts** (screen FX).
+  * They are **teleported into another dimension** (cutscene or portal).
+
+---
+
+## ⚔️ Forgotten Hero Event (Lore Boss)
+
+* **Forgotten Hero** = Ancient warrior, lost 2000 years ago, started a holy war.
+* Mastered all weapons → wields **Sword, Bow, Spear, Axe, Fist** during the fight.
+* He is a **mirror of the ultimate player goal** (Weapon Master + Hero).
+
+### 🛡️ Fight Phases
+
+1. **Phase 1 – Sword & Spear**
+
+   * Swift combos, spear thrusts to keep range.
+   * Teaches player dodge/timing.
+
+2. **Phase 2 – Bow & Axe**
+
+   * Uses arrows with AoE explosions.
+   * Axe swings cause shockwaves.
+
+3. **Phase 3 – Fist & Multi-Weapon Mastery**
+
+   * Mixes everything, fast-paced.
+   * Arena collapses, making dodging harder.
+
+---
+
+## 🎁 Rewards for Defeating Forgotten Hero
+
+* Unlocks **Legendary Title Upgrade** (e.g., Blade Sovereign → **Blade Sovereign Ascended**).
+* Unique **Forgotten Aura** (white/golden flames around character).
+* Exclusive **Weapon Skill** (only unlocked through this fight). Example:
+
+  * Sword path → “Eternal Slash” (giant spirit blade attack).
+  * Bow path → “Heaven’s Arrow” (rain of arrows).
+  * Spear path → “Dragon’s Roar” (dragon strike AoE).
+  * Axe path → “Earthsplitter” (ground smash quake).
+  * Fist path → “Heaven Breaker” (sky punch AoE).
+
+---
+
+## 🌟 Narrative Integration
+
+* Before fight, the **Forgotten Hero speaks**:
+  *“I was once like you… a master of all weapons. But power consumed me, and I was lost to time. If you wish to carry this mantle, prove your worth against me!”*
+
+* If defeated →
+  *“You are worthy… bear my legacy, and surpass me.”*
+  → Player is returned to the real world with their **ascended title + aura + skill**.
+
+---
+
+## 🗺️ Expansion Idea
+
+* Each weapon’s **Legendary Path** could face a **different themed Forgotten Hero challenge** (same boss, but focused differently):
+
+  * Blade Sovereign → Forgotten Hero uses **sword-focused combos**.
+  * Falcon Warden → Forgotten Hero uses **bow + spear tactics**.
+  * Dragon Vanguard → Hero emphasizes **axe + spear heavy attacks**.
+  * Titan Brawler → Hero emphasizes **fist combat phase**.
+* This makes each hero path unique, but ties back into the **core Forgotten Hero lore**.
+
+---
+
+✅ This way, the **grind isn’t the end** — reaching Legendary tier actually unlocks **a cinematic boss fight event** that tests skill, not just stats.
+Players who clear it become **true legends** in your game world.
+
+---
+
+👉 Do you want me to expand this into a **full “Legendary Questline Flowchart”** (Weapon → Legendary → Event → Forgotten Hero Fight → Ascended Title/Skill) so you have both **progression tree + boss event integration**?

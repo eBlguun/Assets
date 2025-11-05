@@ -1,0 +1,102 @@
+Common
+Rusty Sword
+
+Active: Quick Slash (fast attack), Parry (block incoming hit)
+Passive: Basic Training (slightly increased defense)
+Wooden Bow
+
+Active: Rapid Shot (fires 3 arrows quickly), Arrow Rain (small AoE)
+Passive: Nimble (move slightly faster while aiming)
+Stone Hammer
+
+Active: Ground Pound (small shockwave), Bash (stuns enemy briefly)
+Passive: Sturdy Grip (reduced knockback)
+Throwing Knife
+
+Active: Double Throw (throws two knives), Ricochet (knife can bounce once)
+Passive: Lightweight (faster weapon switch)
+Uncommon
+Bronze Spear
+
+Active: Lunge (long-range stab), Whirlwind (spins in place)
+Passive: Skirmisher (bonus damage if not hit recently)
+Copper Crossbow
+
+Active: Bolt Barrage (fires multiple bolts), Grapple Shot (pulls enemy)
+Passive: Quick Reload (reloads slightly faster)
+Icy Dagger
+
+Active: Frostbite (chance to slow), Ice Spikes (shoots ice spikes forward)
+Passive: Cold Touch (minor chance to freeze enemy briefly)
+Spark Staff
+
+Active: Zap (shoots a bolt of electricity), Static Surge (area shock)
+Passive: Conduit (gain minor energy on hit)
+Rare
+Blazing Katana
+
+Active: Flame Slash (fire arc), Inferno Dash (fiery dash attack)
+Passive: Heat Aura (damages nearby enemies)
+Shadow Chakram
+
+Active: Shadow Toss (bounces between enemies), Blackout (blinds target briefly)
+Passive: Shadowstep (slight chance to dodge attacks)
+Gale Bow
+
+Active: Wind Arrow (knocks back), Cyclone Shot (creates a mini tornado)
+Passive: Updraft (jumps slightly higher)
+Venom Mace
+
+Active: Toxic Slam (poison cloud), Poison Whip (hits multiple enemies)
+Passive: Corrosive Edge (applies poison over time)
+Epic
+Thunder Gauntlets
+
+Active: Lightning Punch (chains to nearby enemies), Static Shield (shocks attackers)
+Passive: Charge Up (speed boost after combo)
+Crystal Staff
+
+Active: Gem Missile (piercing shot), Prism Wall (reflects projectiles)
+Passive: Mana Gem (increased energy regen)
+Gravity Hammer
+
+Active: Gravity Slam (pulls enemies in), Repulse Field (pushes away)
+Passive: Heavy Presence (enemies slowed nearby)
+Phoenix Blade
+
+Active: Rebirth Slash (heals on hit), Flame Wave (fire shockwave)
+Passive: Ember Spirit (resurrect once per life with little health)
+Mythic
+Solar Scepter
+
+Active: Solar Flare (burn and blind), Radiant Shield (healing aura)
+Passive: Sun’s Blessing (regenerate health in combat)
+Abyssal Trident
+
+Active: Tidal Wave (knockback), Abyssal Grasp (pulls enemies in)
+Passive: Deep Power (increased damage at low health)
+Celestial Chakram
+
+Active: Starfall (multiple projectiles), Lunar Spin (orbiting chakrams)
+Passive: Astral Drift (float for a moment after jumping)
+Stormcaller Rifle
+
+Active: Thunder Shot (stuns), Tempest Burst (wide electric blast)
+Passive: Storm Surge (move slightly faster in rain/storm areas)
+Legendary
+Phantom Scythe
+
+Active: Soul Harvest (life steal), Spectral Cloak (brief invisibility)
+Passive: Wraith’s Touch (chance to phase through attacks)
+Mechanical Crossbow
+
+Active: Rapid Barrage (multi-shot), Explosive Bolt (AoE damage)
+Passive: Reload Mastery (chance to not consume ammo)
+Obsidian Greatsword
+
+Active: Earthquake (massive AoE), Shatter Strike (armor break)
+Passive: Unbreakable (immune to disarm effects)
+Dragon’s Fury
+
+Active: Dragon Breath (cone of fire), Wing Buffet (blasts enemies back)
+Passive: Dragon Heart (damage increases as health lowers)

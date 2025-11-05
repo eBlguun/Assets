@@ -1,0 +1,88 @@
+Perfect 👌 let’s build a **progression tree** that you can directly adapt into your Roblox game. I’ll break it down into **Weapon Mastery Titles**, **Event-Triggered Bosses**, and a **Special Title Tree** for long-term goals.
+
+---
+
+# ⚔️ Weapon Mastery Title System
+
+Each weapon type (Sword, Spear, Bow, Fist, Gun, etc.) has its own progression.
+Kills stack only when that weapon is equipped.
+
+### Example: Sword Title Path
+
+| Kills | Title         | Buff                               | Visuals                    |
+| ----- | ------------- | ---------------------------------- | -------------------------- |
+| 100   | Sword User    | +2% Sword Damage                   | None                       |
+| 200   | Sword Fighter | +5% Sword Damage, +2% Attack Speed | Small sword icon over name |
+| 500   | Sword Master  | +10% Sword Damage, +5% Crit Rate   | Sword aura (glow effect)   |
+| 1000  | Sword Legend  | +15% Sword Damage, +10% Crit Rate  | Aura + sword trail         |
+
+Do the same for **Bow, Spear, Fist, Gun**, etc.
+
+---
+
+# 🏆 Ultimate Titles
+
+Once players master multiple weapon types, they unlock **rare universal titles**.
+
+| Requirement                    | Title                                      | Buff                                      | Visuals                                       |
+| ------------------------------ | ------------------------------------------ | ----------------------------------------- | --------------------------------------------- |
+| Reach Master rank in 2 weapons | Weapon Specialist                          | +5% All Weapon Damage                     | Small aura                                    |
+| Master 3+ weapons              | Weapon Veteran                             | +10% All Weapon Damage, +5% Defense       | Stronger aura                                 |
+| Master ALL weapon types        | Weapon Master                              | +15% All Weapon Damage, +10% Attack Speed | Unique aura + “Weapon Master” golden name tag |
+| Secret Quest + Master All      | Hero / Demon Slayer / Warlord (rare paths) | +20% Buffs + unique cosmetic skills       | Rare aura, player flex                        |
+
+---
+
+# 👑 Event-Triggered Bosses
+
+These spice up grinding so it never feels stale.
+
+### Bandit Line Example
+
+* **Normal Bandits** → grind normally.
+
+* After **30 kills in 1 area** → **Bandit Leader** spawns (miniboss).
+
+  * Drops rare crafting mats, 5% chance of special sword.
+
+* **Timed Challenge:** Kill 10 Bandits in 60s → Extra XP + Double Drop Chance buff (5 minutes).
+
+* **Rare Spawn Event (1–3% chance):** Wandering Ronin appears.
+
+  * Drops cosmetic-only sword skin + rare “Ronin Title” (+3% sword damage).
+
+---
+
+# 🎯 Extra Progression Systems
+
+To keep grind fun beyond weapons:
+
+* **Exploration Titles**
+
+  * Discover 5 islands → “Adventurer” (+5% movement speed).
+  * Discover all islands in one sea → “Explorer” (+10% stamina).
+
+* **Faction Titles**
+
+  * Kill 500 Pirates → “Navy Enforcer” (+10% defense vs Pirates).
+  * Kill 500 Navy → “Pirate Slayer” (+10% attack vs Navy).
+
+* **Boss-Specific Titles**
+
+  * Defeat Dragon Boss 10 times → “Dragonslayer” (+15% damage vs dragons).
+
+---
+
+# 🌟 Why This Works
+
+* **Short grind goals**: Bandit Leader spawns → exciting surprise.
+* **Mid grind goals**: 200 kills → new Title, new buff.
+* **Long grind goals**: Master all weapons → Weapon Master.
+* **Flex goals**: Rare Titles, cosmetic rewards, auras → status symbols.
+
+This makes grind **multi-layered** instead of just “get EXP → level up.”
+
+---
+
+👉 Question for you:
+Do you want me to **make a full chart (tree diagram)** of all progression paths (Sword → Mastery → Weapon Master → Hero, etc.) so you can visually use it as a design doc in Roblox Studio?

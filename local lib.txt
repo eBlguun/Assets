@@ -1,0 +1,4 @@
+mvn install:install-file -Dfile=D:\Projects\uni-bss-bom\target\uni-bss-bom-1.3.jar -DgroupId=mn.unitel.billing -DartifactId=uni-bss-bom -Dversion=1.3 -Dpackaging=jar
+
+
+$ ./consul.exe agent -data-dir=./tmp -datacenter=dc1 -join=10.21.68.14 -client=0.0.0.0 -advertise=10.136.33.29 -node=bilguunPC -encrypt=cg8StVXbQJ0gPvMd9o7yrg==

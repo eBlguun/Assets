@@ -1,0 +1,74 @@
+Perfect 👍 let’s design this whole **Forgotten Hero Dimension Trial** for you. I’ll cover:
+
+1. **Trigger Conditions**
+2. **The Forgotten Hero Boss**
+3. **Fight Mechanics**
+4. **Winning Rewards**
+5. **Losing Penalties & Retry System**
+
+---
+
+### ⚔️ Forgotten Hero Dimension Trial
+
+#### 1. Trigger Conditions
+
+* Player must **become Blade Sovereign** (Sword path).
+* Upon achieving this, an **event cutscene** triggers:
+
+  * The player is pulled into a glowing rift (another dimension).
+  * A voice whispers: *“Prove your worth to the one who wielded all…”*
+* You enter the **Hall of Echoes**, where the Forgotten Hero waits.
+
+---
+
+#### 2. The Forgotten Hero (Boss Design)
+
+* Title: **The Forgotten Hero, Bearer of All Blades**
+* Lore: *Once a warrior who led the Holy War 2000 years ago, now cursed to guard the path of chosen heroes. He mastered every weapon: sword, bow, spear, axe, and fist.*
+* Appearance: Armor scarred, cloak torn, glowing aura shifting between different weapons.
+
+---
+
+#### 3. Fight Mechanics
+
+* The Forgotten Hero **rotates through weapon styles**:
+
+  * **Sword Phase** → Fast combos, parries.
+  * **Spear Phase** → Long reach thrusts, area sweeps.
+  * **Bow Phase** → Ranged volleys, explosive arrows.
+  * **Axe Phase** → Heavy strikes, shockwaves.
+  * **Fist Phase** → Martial rush, stuns.
+
+* Each phase lasts 30–60 seconds before swapping.
+
+* To win, player must **adapt to all styles**, testing true mastery.
+
+---
+
+#### 4. Winning Rewards
+
+If you defeat the Forgotten Hero **solo**:
+
+* Title: **Worthy Successor** (unique aura, glowing like shifting weapons).
+* Unlocks **Secret Advancement Path** → “Chosen Hero” progression line.
+* Gain **Forgotten Relic**: A token that proves your worth (used for future legendary quests).
+
+---
+
+#### 5. Losing Penalties & Retry System
+
+* If you lose, you are **banished back to your world**.
+* Penalty:
+
+  * Lose some durability on your current weapon.
+  * A **7-day cooldown** before attempting again. (Can be shortened by doing special training quests).
+* Retry system:
+
+  * After cooldown, return to the rift at a shrine → challenge again.
+  * Each retry, the Forgotten Hero’s dialogue changes slightly (acknowledging your persistence).
+
+---
+
+👉 This way it feels **epic**, not punishing too hard, but still rare and valuable.
+
+Do you want me to **add different endings** depending on how you defeat the Forgotten Hero (like Sword-only win vs All-weapons win)?

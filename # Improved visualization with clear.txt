@@ -1,0 +1,72 @@
+# Improved visualization with clearer layout, colors per weapon path, and larger labels
+
+# Define progression paths with categories
+paths = {
+    "Start": ["Weapon Master"],
+    "Weapon Master": ["Blade Veteran (Sword)", "Falcon Ranger (Bow)", "Dragon Sentinel (Spear)", "Axe Warlord (Axe)", "Iron Fist Adept (Fist)"],
+    "Blade Veteran (Sword)": ["Blade Sovereign"],
+    "Falcon Ranger (Bow)": ["Falcon Warden"],
+    "Dragon Sentinel (Spear)": ["Dragon Vanguard"],
+    "Axe Warlord (Axe)": ["Axe Conqueror"],
+    "Iron Fist Adept (Fist)": ["Titan Brawler"],
+}
+
+# Categories for coloring
+categories = {
+    "Blade Veteran (Sword)": "Sword",
+    "Blade Sovereign": "Sword",
+    "Falcon Ranger (Bow)": "Bow",
+    "Falcon Warden": "Bow",
+    "Dragon Sentinel (Spear)": "Spear",
+    "Dragon Vanguard": "Spear",
+    "Axe Warlord (Axe)": "Axe",
+    "Axe Conqueror": "Axe",
+    "Iron Fist Adept (Fist)": "Fist",
+    "Titan Brawler": "Fist",
+    "Weapon Master": "Master",
+    "Start": "Start",
+}
+
+# Color mapping
+color_map = {
+    "Sword": "#e53e3e",   # Red
+    "Bow": "#f6ad55",     # Orange
+    "Spear": "#38a169",   # Green
+    "Axe": "#805ad5",     # Purple
+    "Fist": "#319795",    # Teal
+    "Master": "#718096",  # Gray
+    "Start": "#4299e1",   # Blue
+}
+
+# Build graph
+G = nx.DiGraph()
+for src, dst_list in paths.items():
+    for dst in dst_list:
+        G.add_edge(src, dst)
+
+# Assign node colors
+node_colors = [color_map[categories.get(node, "Start")] for node in G.nodes()]
+
+# Layout (hierarchical top-down)
+pos = nx.nx_agraph.graphviz_layout(G, prog="dot")
+
+# Draw graph
+plt.figure(figsize=(14, 10))
+nx.draw_networkx_nodes(G, pos, node_size=4000, node_color=node_colors, edgecolors="white", linewidths=1.5)
+nx.draw_networkx_edges(G, pos, arrowstyle="->", arrowsize=20, edge_color="#2d3748", width=2)
+nx.draw_networkx_labels(G, pos, font_size=11, font_color="white", font_weight="bold")
+
+plt.title("Weapon Master Secret Prestige Tree", fontsize=16, fontweight="bold")
+plt.axis("off")
+plt.show()
+
+Here’s a **clearer prestige tree diagram** 🎯
+
+* **Blue** = Start → Weapon Master
+* **Red** = Sword path (Blade Veteran → Blade Sovereign)
+* **Orange** = Bow path (Falcon Ranger → Falcon Warden)
+* **Green** = Spear path (Dragon Sentinel → Dragon Vanguard)
+* **Purple** = Axe path (Axe Warlord → Axe Conqueror)
+* **Teal** = Fist path (Iron Fist Adept → Titan Brawler)
+
+Would you like me to also add the **buffs/effects under each title** (e.g., +20% Sword Damage, special aura) so the chart works as a full **design document** for your Roblox game?

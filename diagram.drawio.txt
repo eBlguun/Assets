@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2025-09-05T02:10:00Z" agent="Grok" etag="abc123" version="20.6.5">
+  <diagram id="1" name="SMS Workflow">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Customer -->
+        <mxCell id="2" value="Customer" style="shape=stickman;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="40" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- SMS Arrow -->
+        <mxCell id="3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="160" as="sourcePoint"/>
+            <mxPoint x="200" y="160" as="targetPoint"/>
+            <mxPoint x="200" y="200" as="points"/>
+          </mxGeometry>
+          <mxCell id="13" value="1. SMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="3">
+            <mxGeometry x="170" y="170" width="60" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+
+        <!-- SMSC -->
+        <mxCell id="4" value="SMSC" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="80" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Check on/off Arrow -->
+        <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="sourcePoint"/>
+            <mxPoint x="240" y="300" as="targetPoint"/>
+            <mxPoint x="280" y="300" as="points"/>
+          </mxGeometry>
+          <mxCell id="14" value="2. Check on/off" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="5">
+            <mxGeometry x="230" y="270" width="80" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+
+        <!-- OFF State -->
+        <mxCell id="6" value="OFF" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="80" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ON State -->
+        <mxCell id="7" value="ON" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ccffcc;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="80" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ON Arrow -->
+        <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="420" as="sourcePoint"/>
+            <mxPoint x="400" y="420" as="targetPoint"/>
+            <mxPoint x="400" y="460" as="points"/>
+          </mxGeometry>
+          <mxCell id="15" value="3. ON" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="8">
+            <mxGeometry x="320" y="430" width="40" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+
+        <!-- IP8 SM GW -->
+        <mxCell id="9" value="IP8 SM GW" style="shape=hexagon;whiteSpace=wrap;html=1;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="80" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- SME HTTP Request Arrow -->
+        <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="230" as="sourcePoint"/>
+            <mxPoint x="400" y="230" as="targetPoint"/>
+            <mxPoint x="400" y="400" as="points"/>
+          </mxGeometry>
+          <mxCell id="16" value="SME HTTP REQUEST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="10">
+            <mxGeometry x="300" y="300" width="100" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+
+        <!-- Request to toki Arrow -->
+        <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="520" as="sourcePoint"/>
+            <mxPoint x="560" y="520" as="targetPoint"/>
+            <mxPoint x="560" y="560" as="points"/>
+          </mxGeometry>
+          <mxCell id="17" value="4. Request to toki" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="11">
+            <mxGeometry x="480" y="530" width="80" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+
+        <!-- toki API -->
+        <mxCell id="12" value="toki API" style="shape=hexagon;whiteSpace=wrap;html=1;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="80" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- GET Status Arrow -->
+        <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="620" as="sourcePoint"/>
+            <mxPoint x="440" y="620" as="targetPoint"/>
+            <mxPoint x="440" y="500" as="points"/>
+          </mxGeometry>
+          <mxCell id="19" value="5. GET Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="18">
+            <mxGeometry x="500" y="550" width="80" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+
+        <!-- Check Status Arrows -->
+        <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="620" as="sourcePoint"/>
+            <mxPoint x="600" y="660" as="targetPoint"/>
+          </mxGeometry>
+          <mxCell id="21" value="6. Check status Mobile" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="20">
+            <mxGeometry x="580" y="630" width="100" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="620" as="sourcePoint"/>
+            <mxPoint x="600" y="700" as="targetPoint"/>
+          </mxGeometry>
+          <mxCell id="23" value="6. Check status IP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="22">
+            <mxGeometry x="580" y="670" width="80" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+
+        <!-- Send to toki inbox Arrow -->
+        <mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="620" as="sourcePoint"/>
+            <mxPoint x="600" y="740" as="targetPoint"/>
+          </mxGeometry>
+          <mxCell id="25" value="SEND TO TOKI INBOX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="24">
+            <mxGeometry x="580" y="710" width="100" height="20" as="geometry"/>
+          </mxCell>
+        </mxCell>
+
+        <!-- 3G END Icon -->
+        <mxCell id="26" value="" style="shape=image;image=https://www.example.com/3g-icon.png;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="3G END" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="80" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
